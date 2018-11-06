@@ -14,6 +14,7 @@
 		E67645F92191DAAE00DED884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E67645F82191DAAE00DED884 /* Assets.xcassets */; };
 		E67645FC2191DAAE00DED884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67645FA2191DAAE00DED884 /* LaunchScreen.storyboard */; };
 		E67646072191DAAE00DED884 /* ios_cloudfirestore_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67646062191DAAE00DED884 /* ios_cloudfirestore_appTests.swift */; };
+		E67646162191EB1B00DED884 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E67646152191EB1B00DED884 /* GoogleService-Info.plist */; };
 		F909717FC8264867D0E4696B /* libPods-ios-cloudfirestore-app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B5C69A67D13C53328ECE70 /* libPods-ios-cloudfirestore-app.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		E67646022191DAAE00DED884 /* ios-cloudfirestore-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-cloudfirestore-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E67646062191DAAE00DED884 /* ios_cloudfirestore_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_cloudfirestore_appTests.swift; sourceTree = "<group>"; };
 		E67646082191DAAF00DED884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E67646152191EB1B00DED884 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				E67645F82191DAAE00DED884 /* Assets.xcassets */,
 				E67645FA2191DAAE00DED884 /* LaunchScreen.storyboard */,
 				E67645FD2191DAAE00DED884 /* Info.plist */,
+				E67646152191EB1B00DED884 /* GoogleService-Info.plist */,
 			);
 			path = "ios-cloudfirestore-app";
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E67645FC2191DAAE00DED884 /* LaunchScreen.storyboard in Resources */,
+				E67646162191EB1B00DED884 /* GoogleService-Info.plist in Resources */,
 				E67645F92191DAAE00DED884 /* Assets.xcassets in Resources */,
 				E67645F72191DAAD00DED884 /* Main.storyboard in Resources */,
 			);
