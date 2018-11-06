@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B73BFF2299F2D27C2ADB5666 /* libPods-ios-cloudfirestore-appTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBB400803BAFB81C40D96D0 /* libPods-ios-cloudfirestore-appTests.a */; };
 		E67645F22191DAAD00DED884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67645F12191DAAD00DED884 /* AppDelegate.swift */; };
 		E67645F42191DAAD00DED884 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67645F32191DAAD00DED884 /* ViewController.swift */; };
 		E67645F72191DAAD00DED884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67645F52191DAAD00DED884 /* Main.storyboard */; };
 		E67645F92191DAAE00DED884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E67645F82191DAAE00DED884 /* Assets.xcassets */; };
 		E67645FC2191DAAE00DED884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67645FA2191DAAE00DED884 /* LaunchScreen.storyboard */; };
 		E67646072191DAAE00DED884 /* ios_cloudfirestore_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67646062191DAAE00DED884 /* ios_cloudfirestore_appTests.swift */; };
+		F909717FC8264867D0E4696B /* libPods-ios-cloudfirestore-app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B5C69A67D13C53328ECE70 /* libPods-ios-cloudfirestore-app.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6BBB400803BAFB81C40D96D0 /* libPods-ios-cloudfirestore-appTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-cloudfirestore-appTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C1C6284FFDCE778FC32C2D5 /* Pods-ios-cloudfirestore-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-cloudfirestore-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-cloudfirestore-app/Pods-ios-cloudfirestore-app.debug.xcconfig"; sourceTree = "<group>"; };
+		7DE31E42010A9A1AB5918536 /* Pods-ios-cloudfirestore-appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-cloudfirestore-appTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-cloudfirestore-appTests/Pods-ios-cloudfirestore-appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		86B5C69A67D13C53328ECE70 /* libPods-ios-cloudfirestore-app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-cloudfirestore-app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3394892C485E4DD94104C4C /* Pods-ios-cloudfirestore-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-cloudfirestore-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-cloudfirestore-app/Pods-ios-cloudfirestore-app.release.xcconfig"; sourceTree = "<group>"; };
+		D970D99742CED6521E135913 /* Pods-ios-cloudfirestore-appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-cloudfirestore-appTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-cloudfirestore-appTests/Pods-ios-cloudfirestore-appTests.release.xcconfig"; sourceTree = "<group>"; };
 		E67645EE2191DAAD00DED884 /* ios-cloudfirestore-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-cloudfirestore-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E67645F12191DAAD00DED884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E67645F32191DAAD00DED884 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F909717FC8264867D0E4696B /* libPods-ios-cloudfirestore-app.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B73BFF2299F2D27C2ADB5666 /* libPods-ios-cloudfirestore-appTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14A9AAFC8ABF29E2732517A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86B5C69A67D13C53328ECE70 /* libPods-ios-cloudfirestore-app.a */,
+				6BBB400803BAFB81C40D96D0 /* libPods-ios-cloudfirestore-appTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15BD8CE52205EA77C6145CD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C1C6284FFDCE778FC32C2D5 /* Pods-ios-cloudfirestore-app.debug.xcconfig */,
+				C3394892C485E4DD94104C4C /* Pods-ios-cloudfirestore-app.release.xcconfig */,
+				7DE31E42010A9A1AB5918536 /* Pods-ios-cloudfirestore-appTests.debug.xcconfig */,
+				D970D99742CED6521E135913 /* Pods-ios-cloudfirestore-appTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E67645E52191DAAD00DED884 = {
 			isa = PBXGroup;
 			children = (
 				E67645F02191DAAD00DED884 /* ios-cloudfirestore-app */,
 				E67646052191DAAE00DED884 /* ios-cloudfirestore-appTests */,
 				E67645EF2191DAAD00DED884 /* Products */,
+				15BD8CE52205EA77C6145CD7 /* Pods */,
+				14A9AAFC8ABF29E2732517A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +135,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E676460B2191DAAF00DED884 /* Build configuration list for PBXNativeTarget "ios-cloudfirestore-app" */;
 			buildPhases = (
+				206691B638678850F43D5A5D /* [CP] Check Pods Manifest.lock */,
 				E67645EA2191DAAD00DED884 /* Sources */,
 				E67645EB2191DAAD00DED884 /* Frameworks */,
 				E67645EC2191DAAD00DED884 /* Resources */,
@@ -120,6 +153,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E676460E2191DAAF00DED884 /* Build configuration list for PBXNativeTarget "ios-cloudfirestore-appTests" */;
 			buildPhases = (
+				5F6CFFE0C28FBB6FBE29DDF9 /* [CP] Check Pods Manifest.lock */,
 				E67645FE2191DAAE00DED884 /* Sources */,
 				E67645FF2191DAAE00DED884 /* Frameworks */,
 				E67646002191DAAE00DED884 /* Resources */,
@@ -191,6 +225,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		206691B638678850F43D5A5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-cloudfirestore-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F6CFFE0C28FBB6FBE29DDF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-cloudfirestore-appTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E67645EA2191DAAD00DED884 /* Sources */ = {
@@ -358,6 +439,7 @@
 		};
 		E676460C2191DAAF00DED884 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C1C6284FFDCE778FC32C2D5 /* Pods-ios-cloudfirestore-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -375,6 +457,7 @@
 		};
 		E676460D2191DAAF00DED884 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3394892C485E4DD94104C4C /* Pods-ios-cloudfirestore-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -392,6 +475,7 @@
 		};
 		E676460F2191DAAF00DED884 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DE31E42010A9A1AB5918536 /* Pods-ios-cloudfirestore-appTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +496,7 @@
 		};
 		E67646102191DAAF00DED884 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D970D99742CED6521E135913 /* Pods-ios-cloudfirestore-appTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

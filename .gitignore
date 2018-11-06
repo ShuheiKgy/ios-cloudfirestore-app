@@ -19,6 +19,8 @@ DerivedData
 # CocoaPod
 Pods/*
 
+GoogleService-Info.plist
+
 # others
 *.swp
 !.gitkeep
