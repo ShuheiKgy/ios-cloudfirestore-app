@@ -2,9 +2,6 @@
 //  ViewController.swift
 //  ios-cloudfirestore-app
 //
-//  Created by Shuhei Kagaya on 2018/11/06.
-//  Copyright © 2018年 Shuhei Kagaya. All rights reserved.
-//
 
 import UIKit
 
