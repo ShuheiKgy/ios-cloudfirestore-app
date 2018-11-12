@@ -3,6 +3,7 @@
 
 target 'ios-cloudfirestore-app' do
   pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
 
   target 'ios-cloudfirestore-appTests' do
     inherit! :search_paths
