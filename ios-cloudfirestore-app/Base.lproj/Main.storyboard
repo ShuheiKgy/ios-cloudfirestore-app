@@ -18,33 +18,54 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZE-La-oWC">
-                                <rect key="frame" x="75" y="392" width="32" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="ADD"/>
-                                <connections>
-                                    <action selector="onClickAdd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="stY-6a-DV4"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="faU-b3-jsj">
-                                <rect key="frame" x="159" y="392" width="57" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="UPDATE"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q9R-md-yP7">
-                                <rect key="frame" x="251" y="392" width="61" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="REMOVE"/>
-                            </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rdp-6J-gyc">
-                                <rect key="frame" x="75" y="266" width="237" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="43" translatesAutoresizingMaskIntoConstraints="NO" id="VGT-aE-Sf1">
+                                <rect key="frame" x="16" y="621" width="343" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZE-La-oWC">
+                                        <rect key="frame" x="0.0" y="0.0" width="85.5" height="30"/>
+                                        <state key="normal" title="ADD"/>
+                                        <connections>
+                                            <action selector="onClickAdd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="stY-6a-DV4"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="faU-b3-jsj">
+                                        <rect key="frame" x="128.5" y="0.0" width="86" height="30"/>
+                                        <state key="normal" title="UPDATE"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q9R-md-yP7">
+                                        <rect key="frame" x="257.5" y="0.0" width="85.5" height="30"/>
+                                        <state key="normal" title="REMOVE"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rdp-6J-gyc">
+                                <rect key="frame" x="16" y="583" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LaT-pK-hO8">
+                                <rect key="frame" x="0.0" y="20" width="375" height="555"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rdp-6J-gyc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="7SG-UB-GM3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VGT-aE-Sf1" secondAttribute="trailing" constant="16" id="9Sd-uP-Kpl"/>
+                            <constraint firstItem="rdp-6J-gyc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AUT-gi-Dar"/>
+                            <constraint firstItem="LaT-pK-hO8" firstAttribute="centerX" secondItem="rdp-6J-gyc" secondAttribute="centerX" id="Cj7-ps-jG7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LaT-pK-hO8" secondAttribute="trailing" id="GKq-lK-teY"/>
+                            <constraint firstItem="LaT-pK-hO8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="IMi-nX-Vid"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rdp-6J-gyc" secondAttribute="trailing" constant="16" id="LoL-2b-aFA"/>
+                            <constraint firstItem="rdp-6J-gyc" firstAttribute="top" secondItem="LaT-pK-hO8" secondAttribute="bottom" constant="8" symbolic="YES" id="NKk-Vj-aw4"/>
+                            <constraint firstItem="VGT-aE-Sf1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="V07-aF-U0O"/>
+                            <constraint firstItem="LaT-pK-hO8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WYb-vE-VU1"/>
+                            <constraint firstItem="VGT-aE-Sf1" firstAttribute="top" secondItem="rdp-6J-gyc" secondAttribute="bottom" constant="8" id="k6Y-mL-DDe"/>
+                            <constraint firstItem="VGT-aE-Sf1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lfD-fD-4PB"/>
+                            <constraint firstItem="LaT-pK-hO8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="oim-tH-jKf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VGT-aE-Sf1" secondAttribute="bottom" constant="16" id="q3X-w8-FCD"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>

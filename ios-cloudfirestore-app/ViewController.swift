@@ -20,7 +20,7 @@ class ViewController: UIViewController {
                 if let err = err {
                     
                 } else {
-                    
+                    self.content.text = ""
                 }
         }
     }
